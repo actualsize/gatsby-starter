@@ -21,6 +21,7 @@
 	},
 	"include": [
 		"./src/**/*",
+		"gatsby-config.js",
 		"twin.d.ts"
 	],
 	"exclude": [

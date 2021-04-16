@@ -1,12 +1,20 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [
-		{ resolve: `gatsby-plugin-emotion` }
+	siteMetadata: {
+		title: `Actual Size Starter`,
+		description: `Built by 👾 in Pittsburgh, PA.`,
+		author: `@actualsize`,
+	},
+	plugins: [
+		{
+			resolve: `gatsby-plugin-emoji-favicon`,
+			options: {
+				emoji: `🚧`,
+			},
+		},
+		`gatsby-plugin-image`, // https://www.gatsbyjs.com/plugins/gatsby-plugin-image
+		`gatsby-plugin-sharp`,
+		`gatsby-transformer-sharp`,
+		`gatsby-plugin-emotion`,
+		`gatsby-plugin-react-helmet`,
 	],
-}
+};
