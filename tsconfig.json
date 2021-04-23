@@ -21,8 +21,11 @@
 	},
 	"include": [
 		"./src/**/*",
+		"*.d.ts",
+		".eslintrc.js",
+		".prettierrc.js",
 		"gatsby-config.js",
-		"twin.d.ts"
+		"commitlint.config.js"
 	],
 	"exclude": [
 		"node_modules",
