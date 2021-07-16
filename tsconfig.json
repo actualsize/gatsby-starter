@@ -17,7 +17,8 @@
 		"noUnusedParameters": true,
 		"removeComments": false,
 		"preserveConstEnums": true,
-		"jsxImportSource": "@emotion/react"
+		"jsxImportSource": "@emotion/react",
+		"resolveJsonModule": true,
 	},
 	"include": [
 		"./src/**/*",
