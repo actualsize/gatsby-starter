@@ -1,5 +1,21 @@
 # Actual Size Gatsby Starter
 
+This is the default starter template for Actual Size's Gatsby websites. 
+
+## Tooling
+
+* Gatsby
+* React
+* Typescript
+* yarn
+* asdf
+* Node.js LTS
+* Tailwind CSS
+* Emotion
+* twin.macro
+
+Generally, we host static sites on Netlify. (Include the Netlify badge in your project's README.)
+
 Kick off your project with this starter; it ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 ## 🚀 Quick start
