@@ -1,12 +1,12 @@
 module.exports = {
 	siteMetadata: {
-		title: `Actual Size Starter`,
+		title: `Actual Size Gatsby Starter`,
 		description: `Built by 👾 in Pittsburgh, PA.`,
 		author: `@actualsize`,
 	},
 	plugins: [
 		{
-			resolve: `gatsby-plugin-emoji-favicon`,
+			resolve: `@raae/gatsby-plugin-svg-emoji-favicon`,
 			options: {
 				emoji: `🚧`,
 			},
