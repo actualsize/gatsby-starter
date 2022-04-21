@@ -16,6 +16,26 @@ This is the default starter template for Actual Size's Gatsby websites.
 
 Generally, we host static sites on Netlify. (Include the Netlify badge in your project's README.)
 
+## Actual Size Marker.io Integration
+* Go to [app.marker.io](https://app.marker.io) and login with Cal. The credentials are in 1Password.
+* Click the `Add destination` button in the top right corner.
+* Select a `Space` and a `List` within that space. Make sure they're the correct space and list for the project you're working on. *If you're not sure, ask someone!*
+
+* Once you've created your destination, select `Installation` under the `Widget` section of the side navigation.
+
+* As of 04/21/2022, Marker.io only supports vanilla JS and Vue.
+
+* Select `Install code manually` from the list of options provided after navigating to widget installation. In the code snippet provided by Marker, you'll see a destination ID:
+![Destination ID](https://i.imgur.com/tKCTmJK.png)
+
+* Go to the `Layout.tsx` component in this repository and replace the `UNIQUE DESTINATION ID` text with the destination ID from the step above.
+
+* On [app.marker.io](https://app.marker.io), under the destination you just created, navigate to the general settings. Add your staging/development sites to the `Website domains` section. Make sure to include `http://localhost:8000`, too!
+
+* Fire up your development server and check to see if the widget was integrated successfully.
+
+* Customize your button/form/guest form as needed under the widget menu.
+
 Kick off your project with this starter; it ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 ## 🚀 Quick start
